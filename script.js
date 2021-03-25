@@ -1,7 +1,9 @@
 let age = 0
 let day = 1
+// These are the Vairables for the age and the day, and or the day of the week!
 
 document.getElementById('button').addEventListener('click', button)
+// This allows to know whats it looing for and what to click. with the id of button
 
 function button () {
   age = document.getElementById('ages').value
@@ -14,3 +16,4 @@ function button () {
     document.getElementById('para').innerHTML = ('Time to go to Work or University/College!')
   }
 }
+// That defines what the variable are, what they mean, and what happends when you input a number or word into the, whether you go to school work, or stay home etc.
