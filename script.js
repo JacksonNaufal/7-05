@@ -16,5 +16,4 @@ function button () {
   } else if ((age > 17 && day === 'Sunday') || (age > 17 && day === 'Saturday') || (age > 17 && day === 'Monday') || (age > 17 && day === 'Tuesday') || (age > 17 && day === 'Wednesday') || (age > 17 && day === 'Thursday') || (age > 17 && day === 'Friday')) {
     document.getElementById('para').innerHTML = ('Time to go to Work or University/College!')
   }
-
 }
