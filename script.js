@@ -3,7 +3,7 @@ let day = 1
 // These are the Vairables for the age and the day, and or the day of the week!
 
 document.getElementById('button').addEventListener('click', button)
-// This allows to know whats it looing for and what to click. with the id of button
+// This allows to know whats it looing for and what to click. with the id of button!
 
 function button () {
   age = document.getElementById('ages').value
